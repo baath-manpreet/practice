@@ -8,7 +8,7 @@ font-weight: 200;
   font-size: 24px;
   
 }
-.site-header{
+.site-header,.main-area{
   background-color: #1F2937;
 }
 .site-header__wrapper {
@@ -17,7 +17,7 @@ font-weight: 200;
     align-items: center;
     flex-wrap: wrap;
   }
-  nav a{
+  .main-area-item,nav a{
     margin-left: 36px;
     color: #e5e7eb;
     font-size: 18px;
@@ -25,25 +25,94 @@ font-weight: 200;
   }
   .main-area{
     display : flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 60px;
     align-items: center;
-    height: 200px;
-    border: 5px solid black;
+    height: 500px;
+    /*border: 5px solid black;*/
   }
   .main-area-item{
-    border: 3px solid blue;
-    height: 150px;
+    /*border: 3px solid blue;*/
+    height: 300px;
+    width: 500px;
     flex: 0 1 auto;
   }
   .main-area-image{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: gray;
     
-    border: 3px solid blueviolet;
+   /* border: 3px solid blueviolet;*/
     
   }
-  .main-image{
-    border: 3px solid brown
-
+  .main-area-item h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8
   }
+  .main-text-area button{
+    background-color: #3882F6;
+    color:#e5e7eb
+  }
+  .image-text-pair{
+    display: flex;
+    flex-direction:column;
+  }
+  .image-text-pair div{
+    width: 200px;
+    height: 200px;
+   
+  }
+  .image-text{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 40px;
+  }
+  .second-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    gap: 20px;
+  }
+  .image-text-pair div{
+    
+    font-size: 18px;
+     
+  }
+  .image-text-pair .image{
+   
+    border: 2px solid #3882F6;
+    border-radius: 25px;
+  }
+.quote-area{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:500px;
+  background-color:#e5e7eb;
+}
+.quote{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 860px;
+  background-color:#e5e7eb;
+  
+}
+#quote-thor{
+  font-size: 36px;
+  font-style: oblique;
+  color:#1F2937;
+}
+.quote div{
+  font-weight: bold;
+}
