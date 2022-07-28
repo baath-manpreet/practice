@@ -116,3 +116,42 @@ font-weight: 200;
 .quote div{
   font-weight: bold;
 }
+.footer-area-one{
+  display:flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.footer-area-two{
+  display: flex;
+  background-color: #3882F6;
+  height: 180px;
+  align-items: center;
+  width: 900px;
+  justify-content: center;
+  border-radius: 10px;
+
+  
+}
+.footer{
+  display: flex;
+  align-items: flex-end;
+  gap: 50px;
+}
+
+.footer-text-wrapper{
+  display: column;
+}
+.footer-text-wrapper .footer-text1{
+  color:#F9FAF8;
+  font-size: 18px;
+}
+.footer-text-wrapper .footer-text2{
+  color: #e5e7eb;
+  font-size: 14px;
+}
+.footer button{
+  color:#F9FAF8;
+  background-color: #3882F6;
+}
